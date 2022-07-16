@@ -1,0 +1,155 @@
+.mx_1{
+    margin: -1em 0;
+}
+.about{
+    display: flex;
+    margin: 2em 0em 0em 2em;
+    padding: 0.5 0.75em;
+    font-size: 700;
+    text-shadow: grey;
+}
+.texts{
+    width: 50%;
+}
+.small_texts{
+    /* padding-top: 0.01em; */
+    text-shadow: none;
+    line-height: .1em;
+}
+.play{
+    text-shadow: none;
+    display: flex;
+}
+.play img{
+    height: 100px;
+    width: 100px;
+}
+.play h5{
+    margin:0;
+}
+.play div{
+    margin-top:0.5em;
+    line-height:1em;
+}
+.images{
+    width: 50%;
+    position: relative;
+    padding: 2em 0 0 1em;
+}
+.folower img{
+    position: absolute;
+    width: 55%;
+    height:auto;   
+    right: 1em;
+    top:1em; 
+}
+.profile img{
+    position: absolute;
+    width: 30%;
+    height:auto;
+    top:30%;
+    left:0;
+}
+.gender img{
+    position: absolute;
+    width: 25%;
+    height:auto;
+    top:45%;
+    right:25%;
+}
+.map img{
+    position: absolute;
+    width: 40%;
+    height:auto;
+    top:80%;
+    right:15%;
+}
+.device img{
+    position: absolute;
+    width: 30%;
+    height:auto;
+    top:68%;
+    left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:780px) {
+    .images{
+        display: none;
+    }
+}  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //UTIL */
+.w_80{
+    width: 80%;
+}
+.w_70{
+    width: 70%;
+}
+.w_60{
+    width: 60%;
+}
+.w_50{
+    width: 50%;
+}
+.w_40{
+    width: 40%;
+}
+.w_30{
+    width: 30%;
+}
+.primary_color{
+    color: #0019FF;
+}
+.text_shadow{
+    text-shadow: 1px 1px 2px #00000025;
+    font-size: 2em;
+}
