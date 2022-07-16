@@ -1,0 +1,39 @@
+.features {
+   display: flex;
+   flex-direction: column;
+   margin: 0em 2em;
+   padding: 0em 9em;
+}
+.sub_feature_div{
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card {
+    text-align: start;
+    background: rgba(0, 25, 255, 0.08);
+    border: 1px solid #CCD1FF;
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0.25em 0 0.25em 1em;
+    margin: 1em;
+    width: 43%;
+}
+
+.card ul {
+    margin-inline-start: -1em;
+    list-style: none;
+}
+.login_btn{
+    margin: 2em 0 0 0;
+    cursor: pointer;
+    background-color: #0019FF;
+    padding: 0.75em 2.75em;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.25);
+}
+

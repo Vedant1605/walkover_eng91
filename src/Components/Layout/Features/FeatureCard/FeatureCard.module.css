@@ -1,0 +1,33 @@
+.card {
+    text-align: start;
+    background: rgba(0, 25, 255, 0.08);
+    border: 1px solid #CCD1FF;
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em;
+    width: 33%;
+}
+
+.card ul {
+    margin-inline-start: -1em;
+    list-style: none;
+}
+.top_left{
+
+    top:0;
+    left:0;
+}
+.top_right{
+
+    top:0;
+    right:0;
+}
+.bottom_left{
+    bottom: 0;
+    left: 0;
+}
+.bottom_right{
+    bottom: 0;
+    right: 0;
+}

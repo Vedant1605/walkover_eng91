@@ -99,6 +99,22 @@
     .images{
         display: none;
     }
+    .small_texts{
+            line-height: normal;
+    }
+    .texts{
+        width: 100%;
+    }
+    .about{
+        display: flex;
+        margin: 0.5em;
+        padding: 0.5;
+        font-size: 700;
+        text-shadow: grey;
+    }
+    .play{
+        justify-content: center;
+    }
 }  
   
 

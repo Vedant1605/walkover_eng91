@@ -1,4 +1,5 @@
 import About from "../Components/Layout/About/About"
+import Features from "../Components/Layout/Features/Features"
 import Navbar from "../Components/Layout/Navbar/Navbar"
 import classes from "./Layout.module.css"
 const Layout = (props) => {
@@ -11,6 +12,7 @@ const Layout = (props) => {
                 Get 10x More Views and real human engagement on Twitter Post
                 </h1>
             </div>
+            <Features />
         </div>
     )
 }
