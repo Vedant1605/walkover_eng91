@@ -37,3 +37,11 @@
     box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width:900px){
+    .sub_feature_div{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+}
