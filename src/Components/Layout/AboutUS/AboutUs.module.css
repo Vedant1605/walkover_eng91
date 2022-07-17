@@ -1,0 +1,57 @@
+.about_us{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;    
+}
+.guys{
+    margin: 3em 5em;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_us  h1{
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.text{
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 7em;
+    text-align:center;
+}
+.text p{
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 25, 255, 1);
+    /* font-size: 1.5em; */
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    margin: 0 auto;
+}
+.profile .pic {
+    margin-right: 2em;
+    width: 100px;
+    height: auto;
+
+}
+.card_text h5 {
+    margin: -1em 0em;
+    font-weight:400;
+    font-size: small;
+    /* color: rgba(0, 0, 0, 0.81); */
+}
+.card_text div {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.card_text div a{
+    /* margin: 1em 0.5em 0 0.5em ; */
+    padding: 1.2em .5em;
+}
+

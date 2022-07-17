@@ -33,7 +33,7 @@ const Features = (props) => {
                         <h3>{FEATURES[0].title}</h3>
                         <ul>
                             {
-                                FEATURES[0].list.map(e => <li>-{e}</li>)
+                                FEATURES[0].list.map(e => <li key={e.size}>-{e}</li>)
                             }
                         </ul>
                     </div>
@@ -41,7 +41,7 @@ const Features = (props) => {
                         <h3>{FEATURES[1].title}</h3>
                         <ul>
                             {
-                                FEATURES[1].list.map(e => <li>-{e}</li>)
+                                FEATURES[1].list.map(e => <li key={e.size}>-{e}</li>)
                             }
                         </ul>
                     </div>
@@ -51,7 +51,7 @@ const Features = (props) => {
                         <h3>{FEATURES[2].title}</h3>
                         <ul>
                             {
-                                FEATURES[2].list.map(e => <li>-{e}</li>)
+                                FEATURES[2].list.map(e => <li key={e.size}>-{e}</li>)
                             }
                         </ul>
                     </div>
@@ -59,7 +59,7 @@ const Features = (props) => {
                         <h3>{FEATURES[3].title}</h3>
                         <ul>
                             {
-                                FEATURES[3].list.map(e => <li>-{e}</li>)
+                                FEATURES[3].list.map(e => <li key={e.size}>-{e}</li>)
                             }
                         </ul>
                     </div>

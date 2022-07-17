@@ -1,0 +1,16 @@
+.mid_nav{
+    display: flex;
+    margin: 3em 0;
+    padding: 1em 2em;
+    /* box-shadow: ; */
+    justify-content: space-evenly;
+    /* border-top:  1px solid rgba(0, 0, 0, 0.03) ; */
+    /* border-bottom:  1px solid rgba(0, 0, 0, 0.03) ; */
+    box-shadow: 0px 0px 10px -3px #80808047;
+}
+.mid_nav a{
+    text-decoration: none;
+    color: rgba(0, 25, 255, 1);
+    font-size: 1.5em;
+    font-weight: 500;
+}
